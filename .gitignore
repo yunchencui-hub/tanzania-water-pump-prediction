@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Raw data (download from DrivenData; see data/README.md)
+data/*.csv
+*.csv
+
+# Generated intermediate datasets
+cleaned_train_values.csv
+cleaned_train_labels.csv
+cleaned_test_values.csv
+final_X_train.parquet
+final_X_test.parquet
+final_y_train.csv
+*.parquet
+*.pkl
+
+# Generated results and plots
+audit_results.csv
+nn_audit_results.csv
+nn_tuning_results.csv
+feature_importance.csv
+confidence_samples.csv
+*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
