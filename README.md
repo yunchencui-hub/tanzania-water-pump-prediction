@@ -70,7 +70,7 @@ The script filenames are kept exactly as referenced in Appendix A.2 of the techn
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/<your-username>/tanzania-water-pump-prediction.git
+git clone https://github.com/<yunchencui-hub>/tanzania-water-pump-prediction.git
 cd tanzania-water-pump-prediction
 pip install -r requirements.txt
 ```
